@@ -1,0 +1,30 @@
+# Binários gerados
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Diretório do módulo Go
+/vendor/
+
+# Diretório gerado pelo Go para dependências
+/pkg/
+
+# Cache do Go Modules
+/go.sum
+/go.mod
+
+# Arquivos temporários e de logs
+*.log
+*.tmp
+
+# Editor ou IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Outras configurações específicas
+.DS_Store
+Thumbs.db
